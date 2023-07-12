@@ -1,0 +1,380 @@
+html, body{
+    font: normal 16px / 28px "Roboto",Helvetica,Arial,Verdana,sans-serif;
+    word-spacing: normal;
+    color: #7a7a7a;
+}
+.blanco{
+    color: white;
+}
+.negro{
+    color: black;
+}
+.green{
+    color: #00833E;
+}
+
+section{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+/* header */
+#header1{
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    padding-top: 1%;
+   
+}
+
+#navbarmd{
+    
+    display: flex;
+    align-items: center;
+    /* background-color: rgba(0,0,0,0); */
+    padding-right: 80px;
+    padding-left: 80px;
+}
+#navbarsm{
+    display: none;   
+}
+#navbarsm a{
+    color: white;
+}
+#botonera{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#botonera a{
+    color: white;
+}
+#menu a{
+    color: black;
+}
+.bord{
+    background: aliceblue;
+    border: 1px solid white;
+}
+
+#botonera a:hover > .bord{
+    transition: ease-in-out;
+    transition: all 450ms ease-out;
+    opacity: 1;
+    visibility: visible;
+}
+
+#botonera a .bord{
+    opacity: 0;
+    visibility: hidden;
+}
+/* fotos carousel */
+.fotoscarousel1{
+	background-repeat: no-repeat;
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+	height: 700px;
+}
+.fotoscarousel2{
+	background-repeat: no-repeat;
+    background-image: url("img/2.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 700px;
+}
+
+.fotoscarousel3{
+	background-repeat: no-repeat;
+    background-image: url("img/3.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+	height: 700px;
+}
+.fotoscarousel4{
+	background-repeat: no-repeat;
+    background-image: url("img/4.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+	height: 700px;
+}
+
+.fotoscarousel5{
+	background-repeat: no-repeat;
+    background-image: url("img/5.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+	height: 700px;
+}
+/* fin fotos carousel */
+#cajatext{
+	height: 100%;
+    width: 100%;
+	position: absolute;
+    z-index: 2;
+    text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+#section1-caja-con-texto{
+    
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4% 2%;
+	
+}
+.ab{
+    color: #00833E;
+    font-size: 48px;
+}
+.cd{
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: .5px;
+}
+
+.ef{
+	color: #fff;
+    font-size: 147px;
+    font-weight: 700;
+    line-height: 160px;
+    letter-spacing: .5px;
+}
+.gh{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 46px;
+}
+/* section1 */
+#s1{
+    background-color: rgba(0,0,0,.04);
+    
+}
+#info{
+    text-align: center;
+}
+#info .icons{
+    background: #00833E;
+    padding: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 1;
+}
+#info .icons:hover{
+    background: #3e8f4b;
+}
+.trans{
+    font-size: 16px;
+    color: #7a7a7a;
+}
+/* section 2 */
+#s2{
+    padding-bottom: 14%;
+}
+
+.bor{
+    border-bottom: #00833E solid 4px;
+}
+/* fotos */
+.fotos{
+    background-repeat: no-repeat;
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+	height: 160px;
+}
+.felipe{
+    border-top-left-radius: 60%;
+    background-image: url("img/integrantes/felipe.jpg");
+}
+.diego{
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 60%;
+    background-image: url("img/integrantes/diego.jpg");
+}
+.tomas{
+    background-image: url("img/integrantes/tomas.jpg");
+}
+.jacobo{
+    border-end-start-radius: 60%;
+    background-image: url("img/integrantes/jacobo.jpg");
+} 
+.juan{
+        border-top-right-radius: 70%;
+    border-bottom-right-radius: 60%;
+    background-image: url("img/integrantes/juan.jpg");
+}
+/* section 3 */
+#s3{
+    padding-top: 10%;
+    background-color: rgba(0,0,0,.04);
+    padding-bottom: 16%;
+   
+}
+.cont .cont1{
+    position: relative;
+    
+}
+.cont .capa{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0 , 0, 0.60);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.375rem;
+}
+.cont .cont1:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.cont .cont1 a{
+    display:inline-block;
+    height:100%;
+     width:100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont .cont1 a:hover > .mas{     
+     visibility: visible;
+     opacity: 1;
+}
+.mas{
+    position:absolute; 
+    visibility: hidden;
+    opacity: 0;
+    transition: all 500ms ease-out;
+    z-index: 4;
+}
+.modal-header, .modal-body{
+    background-color: #121312;
+    color: white;
+}
+/* section 4 */
+#section4{
+    width: 100%;
+    padding-bottom: 12%;
+}
+#s4background{
+	background-repeat: no-repeat;
+    background-image: url("img/s4background.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 600px;
+}
+
+#s4contenedorform{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.forminput{
+    background-color: rgba(0,0,0,.04);
+}
+.formtextarea{
+    background-color: rgba(0,0,0,.04);
+    height: 120px;
+}
+
+
+/* footer */
+footer{
+    background:#333333;
+    color: white;
+}
+#footfinal{
+    border-top: #7a7a7a 3px solid;
+    font-size: 12px;
+}
+
+
+@media all and (max-width:910px){
+    /* section 2 */
+.fotos{
+    height: 120px;
+}
+}
+
+@media all and (max-width:767px){
+    /* header */
+#navbarmd{
+    display: none;
+}
+#navbarsm{
+    display: block;
+}
+    /* section  */
+#section1-caja-con-texto{
+    padding: 2% 1%;
+}
+.ab, .cd{
+    font-size: 40px;
+}
+.ef{
+    font-size: 110px;
+}
+.gh{
+    font-size: 36px;
+}
+    /* section 2 */
+.fotos{
+    height: 400px;
+}
+.juan, .felipe, .tomas, .diego, .jacobo{
+    border-radius: 3%;
+}
+}
+
+
+
+@media all and (max-width: 576px){
+    /* header */
+.ef{
+    font-size: 60px;
+    line-height: 80px;
+}
+.gh{
+    font-size: 32px;
+}
+    /* section 2 */
+#s2{
+    padding-bottom: 40;
+}
+.fotos{
+    height: 320px;
+}
+.juan, .felipe, .tomas, .diego, .jacobo{
+    border-radius: 3%;
+}
+/* section 3 */
+.proyectos{
+    height: 160px;
+}
+/* section 4 */
+#s4background{
+    height: 400px;
+}
+/* footer */
+footer{
+    padding-bottom: 10%;
+}
+}
